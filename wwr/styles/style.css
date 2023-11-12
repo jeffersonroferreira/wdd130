@@ -91,7 +91,7 @@ footer {
     font-size: 22px;
     padding: 25px 50px;
     padding-top: 15px;
-    margin-top: 200px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -195,6 +195,91 @@ footer p a:hover {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #182A3A;
 }
+
+/* Page 2 - Rivers We Run css start here.*/
+.rwr-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 50px;
+}
+.rwr-grid h2 {
+    color: #182A3A;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.rwr-grid p {
+    color: #182A3A;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.rivers-title {
+    font-family: 'Ink Free', Arial, sans-serif;
+    font-size: 2em;
+    color: #9DE7AD;
+    margin-top: 10px;
+    grid-column:1/11
+
+}
+.txt-arizona-river {
+    margin-top: 10px;
+    grid-column: 2/6;
+    grid-row: 2/3;
+    text-align: justify;
+    
+}
+
+.arizona-river {
+    width: 100%;
+    grid-column: 6/10;
+    grid-row: 2/3; 
+    display: flex;
+    justify-content: center;
+    border: 10px solid #9DE7AD;
+    box-shadow: 5px 5px 10px #182A3A;
+    margin-left: 20px;
+}
+.arizona-river:hover, .utah-river:hover, .idaho-river:hover {
+    opacity: .6;
+    transform: scale(1.1)
+}
+.txt-utah-river {
+    margin-top: 50px;
+    margin-left: 20px;
+    grid-column: 6/10;
+    grid-row: 3/4; 
+    text-align: justify;  
+}
+.utah-river {
+    margin-top: 60px;
+    width: 100%;
+    grid-column: 2/6;
+    grid-row: 3/4; 
+    display: flex;
+    justify-content: center;
+    border: 10px solid #9DE7AD;
+    box-shadow: 5px 5px 10px #182A3A;
+}
+.txt-idaho-river {
+    margin-top: 50px;
+    grid-column: 2/6;
+    grid-row: 4/5; 
+    text-align: justify;
+    
+}
+.idaho-river {
+    margin-top: 100px;
+    width: 100%;
+    grid-column: 6/10;
+    grid-row: 4/5; 
+    display: flex;
+    justify-content: center;
+    border: 10px solid #9DE7AD;
+    box-shadow: 5px 5px 10px #182A3A;
+    margin-left: 20px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
