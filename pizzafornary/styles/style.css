@@ -1,0 +1,151 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;   
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 35px;
+}
+.home-title {
+    font-family: 'Ink Free', Arial, sans-serif;
+    font-size: 5em;
+    color: #F9C80E;
+    margin-top: 200px;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+body {
+    background-color: #fcfbfb;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgba(20,30,13, .7);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a:hover {
+    background-color: #F9C80E;
+    color: whitesmoke;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 100px;
+    margin: 100px;
+}
+.welcome-paragraph {
+    margin-top: 60px;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    box-shadow: 5px 5px 10px #F9C80E;
+}
+.txt-welcome-paragraph {
+    margin-top: 60px;
+    grid-column: 1/4;
+}
+.second-paragraph {
+    margin-top: 50px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    box-shadow: 5px 5px 10px #F9C80E;
+}
+.txt-event {
+    margin-top: 50px;
+    grid-column: 2/5;
+    grid-row: 2/3;
+}
+.home-grid p {
+    color: #182A3A;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+footer {
+    background-color: #4DAA57;
+    color: #182A3A;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 22px;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #F9C80E;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+    padding: 10px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-img {
+    width: 100%;
+}
+.button-box {
+    text-align: center;
+}
+.contactus {
+    background-color: #FF1B1C;
+    color: white;
+    text-decoration: none;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.contactus:hover {
+    background-color: #F9C80E;
+    color: whitesmoke;
+}
