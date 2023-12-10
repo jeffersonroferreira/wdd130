@@ -83,7 +83,6 @@ footer {
     font-size: 22px;
     padding: 25px 50px;
     padding-top: 15px;
-    margin-top: 80px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -170,11 +169,12 @@ footer p a:hover {
     grid-column: 2/3;
     grid-row: 2/11;
     margin-top: 100px;
+    margin-bottom: 80px;
 }
 .fisrt-img-aboutus {
     grid-column: 4/5;
     grid-row: 3/4;
-    margin-top: 100px;
+    margin-top: 60px;
     box-shadow: 5px 5px 10px #F9C80E;
 }
 .second-img-aboutus {
@@ -248,10 +248,42 @@ footer p a:hover {
   }
 
   /* CSS Contact Us Page */
+  .contactus-grid {
+    display: grid;
+    grid-template-columns: 450px 80px 1fr 80px;
+    grid-template-rows: 6fr ;
+  }
+ 
+  .contactus-title {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .contactus-form {
+    grid-column: 3/4;
+    grid-row: 2/7;
+    margin-bottom: 60px;
+  }
+  .contactus-img {
+    grid-column: 1/2;
+    grid-row: 1/7;
+  }
+  .contactus-grid h1 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 36px;
+    margin-top: 50px;
+    color: #F9C80E;
+  }
+  .contactus-grid h4 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5em;
+    color: #4DAA57;
+    margin-top: 40px;
+  }
   form {
     /* Center the form on the page */
     margin: 0 auto;
-    margin-top: 70px;
     width: 400px;
     /* Form outline */
     padding: 1em;
